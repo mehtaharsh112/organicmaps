@@ -1,5 +1,7 @@
 htmlmin==0.1.12
-requests==2.23.0
+requests==2.32.0
 beautifulsoup4==4.9.1
 wikidata==0.6.1
 wikipedia-api==0.5.4
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
